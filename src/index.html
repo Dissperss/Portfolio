@@ -163,12 +163,24 @@
                 </div>
                 <nav>
                     <ul class="menu__list">
-                        <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                        <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                        <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                        <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                        <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                        <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                        <li class="menu__link">
+                            <a href="#about">ПРО МЕНЯ</a>
+                        </li>
+                        <li class="menu__link">
+                            <a href="#resume">МОЙ ОПЫТ</a>
+                        </li>
+                        <li class="menu__link">
+                            <a href="#skills">МОИ НАВЫКИ</a>
+                        </li>
+                        <li class="menu__link">
+                            <a href="#portfolio">МОИ РАБОТЫ</a>
+                        </li>
+                        <li class="menu__link">
+                            <a href="#price">ПРАЙС-ЛИСТ</a>
+                        </li>
+                        <li class="menu__link">
+                            <a href="#contacts">КОНТАКТЫ</a>
+                        </li>
                     </ul>
                 </nav>
                 <div class="menu__social">
@@ -360,11 +372,10 @@
                                                 alt="university"
                                             />
                                         </div>
-                                        <h4 class="title title_fz14">
-                                            МГТУ им. Н. Э. Баумана
-                                        </h4>
+                                        <h4 class="title title_fz14">ВГТУ</h4>
                                         <div class="resume__item-location">
-                                            Диплом магистра | Москва (2014-2020)
+                                            Диплом бакалавра | Воронеж
+                                            (2019-2023)
                                         </div>
                                     </div>
                                     <div class="resume__item-body">
@@ -386,9 +397,11 @@
                                                 alt="courses"
                                             />
                                         </div>
-                                        <h4 class="title title_fz14">Udemy</h4>
+                                        <h4 class="title title_fz14">
+                                            РЭУ им. Плеханова
+                                        </h4>
                                         <div class="resume__item-location">
-                                            Курсы по Web-разработке
+                                            Диплом магистра | (2023 - 2025)
                                         </div>
                                     </div>
                                     <div class="resume__item-body">
@@ -648,7 +661,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section id="portfolio" class="portfolio">
             <div class="container">
                 <h2 class="title title_fz16 title__section-title">Портфолио</h2>
                 <div class="title title_fz36 title__section-subtitle">
@@ -662,14 +675,23 @@
                     <a href="/esl" class="portfolio__item">
                         <img src="img/works/esl.jpg" alt="esl" />
                     </a>
-                    <a href="/radio" class="portfolio__item">
-                        <img src="img/works/radio.jpg" alt="radio" />
+                    <a
+                        href="https://headphone-store-ruby.vercel.app/"
+                        class="portfolio__item"
+                    >
+                        <img src="img/works/headphones.jpg" alt="headphones" />
                     </a>
-                    <a href="/plans" class="portfolio__item vertical">
-                        <img src="img/works/plans.jpg" alt="plans" />
+                    <a
+                        href="https://coffee-shop-snowy-seven.vercel.app/"
+                        class="portfolio__item vertical"
+                    >
+                        <img
+                            src="img/works/drinking_coffee.jpg"
+                            alt="coffee-shop"
+                        />
                     </a>
                     <a href="#" class="portfolio__item">
-                        <img src="img/works/ipad.jpg" alt="ipad" />
+                        <img src="img/works/portfolio.jpg" alt="portfolio" />
                     </a>
                     <a href="/vinestore" class="portfolio__item horizontal">
                         <img src="img/works/vinestore.jpg" alt="vinestore" />
@@ -678,7 +700,7 @@
             </div>
         </section>
 
-        <section class="price">
+        <section id="price" class="price">
             <div class="container">
                 <h2 class="title title_fz16 title__section-title">
                     Прайс-лист
@@ -744,7 +766,7 @@
             </div>
         </section>
 
-        <section class="contacts">
+        <section id="contacts" class="contacts">
             <div class="container">
                 <div class="contacts__wrapper">
                     <div class="contacts__photo">
