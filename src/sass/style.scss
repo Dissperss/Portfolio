@@ -34,3 +34,16 @@
     width: 1140px;
     margin: 0 auto;
 }
+
+.policy {
+    text-align: center;
+    padding: 10px;
+}
+
+.policy__point {
+    font-weight: 700;
+}
+
+.policy__point > * {
+    font-weight: 500;
+}
